@@ -10,6 +10,7 @@ max-width: 1380px;
 width: 90%;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
+margin: 0 auto;
 
 @media (max-width:768px ) {
     display: flex;
