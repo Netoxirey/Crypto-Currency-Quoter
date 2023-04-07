@@ -42,7 +42,7 @@ export function CryptoContextProvider(props) {
 
     setDisplayData(arrayCrypts.filter((crypto) => crypto.id === selectedCrypto)[0])
   })
-  },[selectedCurrency])
+  },[selectedCurrency,selectedCrypto])
 
 useEffect(() => {
    if(displayData) {
